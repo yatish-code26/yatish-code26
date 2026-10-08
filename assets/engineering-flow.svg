@@ -1,0 +1,125 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C16"/>
+      <stop offset="100%" stop-color="#0E1526"/>
+    </linearGradient>
+
+    <linearGradient id="flowBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141E33"/>
+      <stop offset="100%" stop-color="#0D1524"/>
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1200" height="230" rx="14" fill="url(#flowBg)"/>
+  <rect x="1" y="1" width="1198" height="228" rx="13" fill="none" stroke="url(#flowBorder)" stroke-width="1.2"/>
+
+  <!-- Header Title -->
+  <g transform="translate(36, 32)">
+    <rect x="0" y="0" width="168" height="24" rx="12" fill="#131C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="12" y="16" fill="#38BDF8" font-size="11" font-weight="700" class="mono" letter-spacing="1.2">SYSTEM LIFECYCLE</text>
+    <text x="180" y="17" fill="#F8FAFC" font-size="14" font-weight="600" class="sans">Engineering Process: From Conception to Production</text>
+    <text x="1128" y="17" text-anchor="end" fill="#64748B" font-size="11" class="mono">REPRODUCIBLE • DEFENSIVE • TESTED</text>
+  </g>
+
+  <!-- 6 Pipeline Stages -->
+  <g transform="translate(36, 75)">
+    <!-- Stage 1: Spec & Problem -->
+    <g transform="translate(0, 0)">
+      <rect width="170" height="120" rx="10" fill="url(#stepGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="12" y="12" width="28" height="20" rx="4" fill="#38BDF8" fill-opacity="0.15"/>
+      <text x="17" y="26" fill="#38BDF8" font-size="11" font-weight="700" class="mono">01</text>
+      <text x="46" y="27" fill="#F1F5F9" font-size="13" font-weight="700" class="sans">Requirements</text>
+      <text x="12" y="58" fill="#94A3B8" font-size="11" class="sans">• Problem formulation</text>
+      <text x="12" y="76" fill="#94A3B8" font-size="11" class="sans">• Domain constraints</text>
+      <text x="12" y="94" fill="#94A3B8" font-size="11" class="sans">• User workflows</text>
+    </g>
+
+    <!-- Connector Arrow 1 -->
+    <path d="M 174 60 L 188 60 M 184 55 L 189 60 L 184 65" stroke="#38BDF8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Stage 2: Architecture -->
+    <g transform="translate(192, 0)">
+      <rect width="170" height="120" rx="10" fill="url(#stepGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="12" y="12" width="28" height="20" rx="4" fill="#60A5FA" fill-opacity="0.15"/>
+      <text x="17" y="26" fill="#60A5FA" font-size="11" font-weight="700" class="mono">02</text>
+      <text x="46" y="27" fill="#F1F5F9" font-size="13" font-weight="700" class="sans">Architecture</text>
+      <text x="12" y="58" fill="#94A3B8" font-size="11" class="sans">• Relational schemas</text>
+      <text x="12" y="76" fill="#94A3B8" font-size="11" class="sans">• GIS spatial indices</text>
+      <text x="12" y="94" fill="#94A3B8" font-size="11" class="sans">• State sync &amp; Edge APIs</text>
+    </g>
+
+    <!-- Connector Arrow 2 -->
+    <path d="M 366 60 L 380 60 M 376 55 L 381 60 L 376 65" stroke="#60A5FA" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Stage 3: Implementation -->
+    <g transform="translate(384, 0)">
+      <rect width="170" height="120" rx="10" fill="url(#stepGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="12" y="12" width="28" height="20" rx="4" fill="#818CF8" fill-opacity="0.15"/>
+      <text x="17" y="26" fill="#818CF8" font-size="11" font-weight="700" class="mono">03</text>
+      <text x="46" y="27" fill="#F1F5F9" font-size="13" font-weight="700" class="sans">Build</text>
+      <text x="12" y="58" fill="#94A3B8" font-size="11" class="sans">• React 19 / Native UI</text>
+      <text x="12" y="76" fill="#94A3B8" font-size="11" class="sans">• FastAPI / Supabase logic</text>
+      <text x="12" y="94" fill="#94A3B8" font-size="11" class="sans">• AI streaming hooks</text>
+    </g>
+
+    <!-- Connector Arrow 3 -->
+    <path d="M 558 60 L 572 60 M 568 55 L 573 60 L 568 65" stroke="#818CF8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Stage 4: Security & RLS -->
+    <g transform="translate(576, 0)">
+      <rect width="170" height="120" rx="10" fill="url(#stepGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="12" y="12" width="28" height="20" rx="4" fill="#A78BFA" fill-opacity="0.15"/>
+      <text x="17" y="26" fill="#A78BFA" font-size="11" font-weight="700" class="mono">04</text>
+      <text x="46" y="27" fill="#F1F5F9" font-size="13" font-weight="700" class="sans">Security</text>
+      <text x="12" y="58" fill="#94A3B8" font-size="11" class="sans">• Row Level Security (RLS)</text>
+      <text x="12" y="76" fill="#94A3B8" font-size="11" class="sans">• JWT Auth &amp; RBAC roles</text>
+      <text x="12" y="94" fill="#94A3B8" font-size="11" class="sans">• Vault &amp; secret isolation</text>
+    </g>
+
+    <!-- Connector Arrow 4 -->
+    <path d="M 750 60 L 764 60 M 760 55 L 765 60 L 760 65" stroke="#A78BFA" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Stage 5: Verification & Testing -->
+    <g transform="translate(768, 0)">
+      <rect width="170" height="120" rx="10" fill="url(#stepGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="12" y="12" width="28" height="20" rx="4" fill="#34D399" fill-opacity="0.15"/>
+      <text x="17" y="26" fill="#34D399" font-size="11" font-weight="700" class="mono">05</text>
+      <text x="46" y="27" fill="#F1F5F9" font-size="13" font-weight="700" class="sans">Testing</text>
+      <text x="12" y="58" fill="#94A3B8" font-size="11" class="sans">• Vitest &amp; RTL suites</text>
+      <text x="12" y="76" fill="#94A3B8" font-size="11" class="sans">• Pytest async engines</text>
+      <text x="12" y="94" fill="#94A3B8" font-size="11" class="sans">• Strict 0 TS error gate</text>
+    </g>
+
+    <!-- Connector Arrow 5 -->
+    <path d="M 942 60 L 956 60 M 952 55 L 957 60 L 952 65" stroke="#34D399" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Stage 6: Deployment & Monitoring -->
+    <g transform="translate(960, 0)">
+      <rect width="168" height="120" rx="10" fill="url(#stepGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="12" y="12" width="28" height="20" rx="4" fill="#F472B6" fill-opacity="0.15"/>
+      <text x="17" y="26" fill="#F472B6" font-size="11" font-weight="700" class="mono">06</text>
+      <text x="46" y="27" fill="#F1F5F9" font-size="13" font-weight="700" class="sans">Production</text>
+      <text x="12" y="58" fill="#94A3B8" font-size="11" class="sans">• PWA &amp; Service Workers</text>
+      <text x="12" y="76" fill="#94A3B8" font-size="11" class="sans">• Supabase Edge runtime</text>
+      <text x="12" y="94" fill="#94A3B8" font-size="11" class="sans">• Multi-format audit logs</text>
+    </g>
+  </g>
+</svg>
