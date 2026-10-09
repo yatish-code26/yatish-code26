@@ -1,29 +1,23 @@
-<svg width="100%" height="100%" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070A12"/>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080F"/>
       <stop offset="50%" stop-color="#0B1120"/>
-      <stop offset="100%" stop-color="#060911"/>
+      <stop offset="100%" stop-color="#06080F"/>
     </linearGradient>
 
-    <!-- Accent Gradients -->
-    <linearGradient id="cyanIndigo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="heroBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="cyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8"/>
       <stop offset="50%" stop-color="#818CF8"/>
       <stop offset="100%" stop-color="#C084FC"/>
-    </linearGradient>
-
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
-      <stop offset="30%" stop-color="#1E293B" stop-opacity="0.3"/>
-      <stop offset="70%" stop-color="#1E293B" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.6"/>
-    </linearGradient>
-
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#131B2E" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.4"/>
     </linearGradient>
 
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -32,132 +26,118 @@
       <stop offset="100%" stop-color="#94A3B8"/>
     </linearGradient>
 
-    <!-- Radial Glows -->
-    <radialGradient id="glowTopLeft" cx="15%" cy="10%" r="40%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="glowBottomRight" cx="85%" cy="90%" r="45%">
-      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Subtle Grid Pattern -->
-    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.5"/>
-      <circle cx="40" cy="40" r="1" fill="#38BDF8" fill-opacity="0.25"/>
+    <!-- Technical Grid Pattern -->
+    <pattern id="techGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4"/>
+      <circle cx="36" cy="36" r="0.75" fill="#38BDF8" fill-opacity="0.3"/>
     </pattern>
 
     <style>
       .mono { font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
-      
-      @keyframes pulseDot {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.4; transform: scale(0.9); }
-      }
-      .pulsing {
-        animation: pulseDot 2.4s ease-in-out infinite;
-        transform-origin: center;
-      }
     </style>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="1200" height="380" rx="16" fill="url(#bgGrad)"/>
-  <rect width="1200" height="380" rx="16" fill="url(#gridPattern)"/>
-  <rect width="1200" height="380" rx="16" fill="url(#glowTopLeft)"/>
-  <rect width="1200" height="380" rx="16" fill="url(#glowBottomRight)"/>
+  <!-- Container Box -->
+  <rect width="1000" height="360" rx="16" fill="url(#heroBg)"/>
+  <rect width="1000" height="360" rx="16" fill="url(#techGrid)"/>
+  <rect x="1" y="1" width="998" height="358" rx="15" fill="none" stroke="url(#heroBorder)" stroke-width="1.2"/>
 
-  <!-- Border -->
-  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <!-- Corner Brackets -->
+  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 986 30 L 986 14 L 970 14" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 14 330 L 14 346 L 30 346" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 986 330 L 986 346 L 970 346" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Corner Accents -->
-  <path d="M 12 28 L 12 12 L 28 12" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M 1188 28 L 1188 12 L 1172 12" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M 12 352 L 12 368 L 28 368" fill="none" stroke="#818CF8" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M 1188 352 L 1188 368 L 1172 368" fill="none" stroke="#818CF8" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Top Metadata Status Row -->
+  <g transform="translate(36, 32)">
+    <rect x="0" y="0" width="220" height="26" rx="13" fill="#0E1726" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="13" cy="13" r="4" fill="#10B981"/>
+    <circle cx="13" cy="13" r="7" fill="none" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="26" y="17" fill="#A7F3D0" font-size="10.5" font-weight="700" class="mono" letter-spacing="1.2">SYSTEM ACTIVE // ARCHITECT</text>
 
-  <!-- Top Metadata Bar -->
-  <g transform="translate(48, 42)">
-    <!-- Status Badge -->
-    <rect x="0" y="0" width="232" height="30" rx="15" fill="#0E1726" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="16" cy="15" r="4.5" fill="#10B981" class="pulsing"/>
-    <circle cx="16" cy="15" r="7.5" fill="none" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="30" y="19.5" fill="#A7F3D0" font-size="11" font-weight="600" class="mono" letter-spacing="1.2">SYSTEM ACTIVE // BUILDER</text>
-
-    <!-- Handle & Spec -->
-    <rect x="244" y="0" width="168" height="30" rx="15" fill="#0E1726" stroke="#1E293B" stroke-width="1"/>
-    <text x="258" y="19.5" fill="#94A3B8" font-size="11" font-weight="500" class="mono">ID: @yatish-code26</text>
-
-    <!-- Right Side Spec -->
-    <text x="1104" y="19.5" text-anchor="end" fill="#64748B" font-size="11" font-weight="500" class="mono">CORE PIPELINE // v2.6</text>
+    <text x="236" y="17" fill="#64748B" font-size="11" class="mono">BUILDER_ID: @yatish-code26</text>
+    <text x="928" y="17" text-anchor="end" fill="#64748B" font-size="11" class="mono">LOCATION: BENGALURU, IN</text>
   </g>
 
-  <!-- Hero Content Center -->
-  <g transform="translate(48, 105)">
-    <!-- Main Title -->
-    <text x="0" y="52" fill="url(#textGrad)" font-size="54" font-weight="800" class="sans" letter-spacing="-1.5">
+  <!-- Left Column: Typography & Positioning -->
+  <g transform="translate(36, 84)">
+    <text x="0" y="52" fill="url(#textGrad)" font-size="52" font-weight="800" class="sans" letter-spacing="-1.2">
       YATISH P
     </text>
 
-    <!-- Subtitle Role Badge -->
-    <text x="310" y="44" fill="url(#cyanIndigo)" font-size="15" font-weight="700" class="mono" letter-spacing="2.2">
+    <text x="0" y="86" fill="url(#cyanViolet)" font-size="13.5" font-weight="700" class="mono" letter-spacing="1.8">
       // AI • FULL-STACK • PRODUCT BUILDER • OPEN SOURCE
     </text>
 
-    <!-- Mission Statement -->
-    <text x="0" y="96" fill="#E2E8F0" font-size="18" font-weight="500" class="sans" letter-spacing="-0.2">
-      Building real technical systems from idea → architecture → security → deployment.
+    <text x="0" y="122" fill="#E2E8F0" font-size="16" font-weight="500" class="sans">
+      Architecting complete systems from idea → architecture → security → deployment.
     </text>
-    <text x="0" y="122" fill="#94A3B8" font-size="14" font-weight="400" class="sans">
-      Focused on production-grade AI applications, GIS public infrastructure, and resilient full-stack architectures.
+    <text x="0" y="146" fill="#94A3B8" font-size="13.5" font-weight="400" class="sans">
+      Production travel companion, geospatial digital public infrastructure, and LangChain contributions.
     </text>
   </g>
 
-  <!-- Horizontal Divider Line with Accent Diamond -->
-  <line x1="48" y1="262" x2="1152" y2="262" stroke="#1E293B" stroke-width="1"/>
-  <line x1="48" y1="262" x2="280" y2="262" stroke="url(#cyanIndigo)" stroke-width="1.5"/>
-  <polygon points="280,259 283,262 280,265 277,262" fill="#38BDF8"/>
+  <!-- Right Isometric 3D Wireframe Motif -->
+  <g transform="translate(750, 180)">
+    <!-- Ambient Glow -->
+    <circle cx="60" cy="0" r="100" fill="#38BDF8" fill-opacity="0.08"/>
+    <circle cx="60" cy="0" r="60" fill="#818CF8" fill-opacity="0.1"/>
 
-  <!-- Bottom Architecture Pillars (4 Cards) -->
-  <g transform="translate(48, 280)">
-    <!-- Card 1: RouteX Ecosystem -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="264" height="66" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
-      <circle cx="24" cy="24" r="8" fill="#38BDF8" fill-opacity="0.12"/>
-      <path d="M 20 24 L 23 27 L 29 21" stroke="#38BDF8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="40" y="27" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">RouteX Travel Platform</text>
-      <text x="40" y="48" fill="#94A3B8" font-size="11" font-weight="400" class="mono">React 19 + Native + Supabase</text>
+    <!-- Concentric Orbit Rings (3D Ellipses) -->
+    <ellipse cx="60" cy="0" rx="90" ry="34" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="4 4" transform="rotate(-15, 60, 0)"/>
+    <ellipse cx="60" cy="0" rx="115" ry="42" fill="none" stroke="#818CF8" stroke-width="1" stroke-dasharray="2 3" transform="rotate(25, 60, 0)"/>
+
+    <!-- Isometric Central Cube / Core -->
+    <g transform="translate(60, 0)">
+      <!-- Top Face -->
+      <polygon points="0,-42 36,-22 0,-2 -36,-22" fill="#132338" stroke="#38BDF8" stroke-width="1.5"/>
+      <!-- Left Face -->
+      <polygon points="-36,-22 0,-2 0,40 -36,20" fill="#0D1826" stroke="#38BDF8" stroke-width="1.5"/>
+      <!-- Right Face -->
+      <polygon points="0,-2 36,-22 36,20 0,40" fill="#101C30" stroke="#818CF8" stroke-width="1.5"/>
+      
+      <!-- Inner Glowing Core Point -->
+      <circle cx="0" cy="0" r="3.5" fill="#38BDF8"/>
+      <circle cx="0" cy="0" r="7" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.6"/>
     </g>
 
-    <!-- Card 2: LandStack DPI -->
-    <g transform="translate(280, 0)">
-      <rect x="0" y="0" width="264" height="66" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
-      <circle cx="24" cy="24" r="8" fill="#818CF8" fill-opacity="0.12"/>
-      <path d="M 24 18 L 30 24 L 24 30 L 18 24 Z" stroke="#818CF8" stroke-width="1.5" fill="none"/>
-      <text x="40" y="27" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">LandStack GIS Infra</text>
-      <text x="40" y="48" fill="#94A3B8" font-size="11" font-weight="400" class="mono">FastAPI + MapLibre + Shapely</text>
-    </g>
+    <!-- Satellite Nodes -->
+    <circle cx="-25" cy="-28" r="3" fill="#38BDF8"/>
+    <circle cx="145" cy="18" r="3" fill="#818CF8"/>
+    <circle cx="10" cy="38" r="2.5" fill="#34D399"/>
+  </g>
 
-    <!-- Card 3: IncidentIQ Intelligence -->
-    <g transform="translate(560, 0)">
-      <rect x="0" y="0" width="264" height="66" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
-      <circle cx="24" cy="24" r="8" fill="#38BDF8" fill-opacity="0.12"/>
-      <path d="M 19 28 L 24 19 L 29 28 Z" stroke="#38BDF8" stroke-width="1.5" fill="none"/>
-      <circle cx="24" cy="25" r="1.5" fill="#38BDF8"/>
-      <text x="40" y="27" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">IncidentIQ Cloud Intel</text>
-      <text x="40" y="48" fill="#94A3B8" font-size="11" font-weight="400" class="mono">Command Center + Simulation</text>
-    </g>
+  <!-- Bottom Metric Strip (Aligned Across 4 Blocks) -->
+  <g transform="translate(36, 268)">
+    <!-- Strip Container -->
+    <rect width="928" height="60" rx="10" fill="#0B101D" stroke="#1E293B" stroke-width="1"/>
 
-    <!-- Card 4: LangChain Open Source -->
-    <g transform="translate(840, 0)">
-      <rect x="0" y="0" width="264" height="66" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
-      <circle cx="24" cy="24" r="8" fill="#C084FC" fill-opacity="0.12"/>
-      <path d="M 20 22 C 20 20 22 18 24 18 C 26 18 28 20 28 22 C 28 25 24 28 24 28 L 20 28" stroke="#C084FC" stroke-width="1.5" stroke-linecap="round"/>
-      <text x="40" y="27" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">LangChain Contributor</text>
-      <text x="40" y="48" fill="#94A3B8" font-size="11" font-weight="400" class="mono">Anthropic Models + Pytest</text>
+    <!-- Block 1 -->
+    <g transform="translate(20, 14)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">RouteX Platform</text>
+      <text x="0" y="32" fill="#38BDF8" font-size="10.5" class="mono">React 19 • Native • Supabase</text>
+    </g>
+    <line x1="235" y1="12" x2="235" y2="48" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Block 2 -->
+    <g transform="translate(255, 14)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">LandStack GIS</text>
+      <text x="0" y="32" fill="#34D399" font-size="10.5" class="mono">FastAPI • MapLibre • Shapely</text>
+    </g>
+    <line x1="475" y1="12" x2="475" y2="48" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Block 3 -->
+    <g transform="translate(495, 14)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">IncidentIQ</text>
+      <text x="0" y="32" fill="#60A5FA" font-size="10.5" class="mono">Cloud Intel • Simulation Loop</text>
+    </g>
+    <line x1="710" y1="12" x2="710" y2="48" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Block 4 -->
+    <g transform="translate(730, 14)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">LangChain Ecosystem</text>
+      <text x="0" y="32" fill="#C084FC" font-size="10.5" class="mono">Model Thinking Validation</text>
     </g>
   </g>
 </svg>

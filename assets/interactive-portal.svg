@@ -1,0 +1,59 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portalBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080F1E"/>
+      <stop offset="50%" stop-color="#111B33"/>
+      <stop offset="100%" stop-color="#0D1226"/>
+    </linearGradient>
+
+    <linearGradient id="portalBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="140" rx="14" fill="url(#portalBg)"/>
+  <rect x="1" y="1" width="998" height="138" rx="13" fill="none" stroke="url(#portalBorder)" stroke-width="1.5"/>
+
+  <!-- Left Icon & Details -->
+  <g transform="translate(36, 32)">
+    <!-- 3D Cube Icon -->
+    <g transform="translate(0, 4)">
+      <rect width="52" height="52" rx="12" fill="#0C2038" stroke="#38BDF8" stroke-width="1.2"/>
+      <!-- Inner Isometric Cube -->
+      <polygon points="26,14 38,21 26,28 14,21" fill="#1E3A5F" stroke="#38BDF8" stroke-width="1"/>
+      <polygon points="14,21 26,28 26,42 14,35" fill="#132742" stroke="#38BDF8" stroke-width="1"/>
+      <polygon points="26,28 38,21 38,35 26,42" fill="#183050" stroke="#818CF8" stroke-width="1"/>
+    </g>
+
+    <g transform="translate(70, 4)">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <!-- SVG Text Equivalent -->
+      </div>
+      <text x="0" y="18" fill="#38BDF8" font-size="11.5" font-weight="700" class="mono" letter-spacing="1.5">
+        SPATIAL EXPERIENCE // THREE.JS + REACT + TYPESCRIPT
+      </text>
+      <text x="0" y="42" fill="#FFFFFF" font-size="20" font-weight="800" class="sans" letter-spacing="-0.3">
+        The Builder's Dimension — Interactive 3D Portfolio
+      </text>
+      <text x="0" y="64" fill="#94A3B8" font-size="12.5" class="sans">
+        Live WebGL scene with real-time pointer parallax, interactive architectural drawers, and verified telemetry.
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Launch Button Box -->
+  <g transform="translate(775, 46)">
+    <rect width="185" height="48" rx="10" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1.2"/>
+    <text x="92" y="28" fill="#38BDF8" font-size="12" font-weight="700" class="mono" text-anchor="middle" letter-spacing="0.5">
+      EXPLORE IN 3D ➔
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iiqBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E1C"/>
+      <stop offset="60%" stop-color="#0E1626"/>
+      <stop offset="100%" stop-color="#070C16"/>
+    </linearGradient>
+
+    <linearGradient id="iiqBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="260" rx="14" fill="url(#iiqBg)"/>
+  <rect x="1" y="1" width="998" height="258" rx="13" fill="none" stroke="url(#iiqBorder)" stroke-width="1.2"/>
+
+  <!-- Left Header & Specs -->
+  <g transform="translate(36, 28)">
+    <rect x="0" y="0" width="220" height="24" rx="12" fill="#0C2033" stroke="#0284C7" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#38BDF8"/>
+    <text x="22" y="16" fill="#7DD3FC" font-size="10.5" font-weight="700" class="mono" letter-spacing="0.8">MICROSOFT HACKATHON</text>
+
+    <text x="0" y="60" fill="#FFFFFF" font-size="26" font-weight="800" class="sans" letter-spacing="-0.5">
+      IncidentIQ
+    </text>
+    <text x="0" y="80" fill="#38BDF8" font-size="12" font-weight="600" class="mono">
+      CLOUD INCIDENT INTELLIGENCE &amp; COMMAND CENTER
+    </text>
+
+    <text x="0" y="106" fill="#94A3B8" font-size="13" class="sans">
+      Developed for Microsoft Build Bengaluru. Accelerates root-cause diagnosis via simulated telemetry.
+    </text>
+
+    <!-- Simulation Controls Strip -->
+    <g transform="translate(0, 126)">
+      <rect width="420" height="52" rx="8" fill="#0A1422" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="20" fill="#64748B" font-size="9.5" font-weight="700" class="mono">STATEFUL DEMO CONTROLS</text>
+      <g transform="translate(14, 26)">
+        <rect x="0" y="0" width="118" height="18" rx="3" fill="#0C2840" stroke="#0284C7" stroke-width="0.7"/>
+        <text x="6" y="13" fill="#38BDF8" font-size="9" font-weight="600" class="mono">▶ SIMULATE INCIDENT</text>
+
+        <rect x="124" y="0" width="55" height="18" rx="3" fill="#1E293B"/>
+        <text x="8" y="13" fill="#CBD5E1" font-size="9" class="mono">⏸ PAUSE</text>
+
+        <rect x="185" y="0" width="62" height="18" rx="3" fill="#1E293B"/>
+        <text x="8" y="13" fill="#CBD5E1" font-size="9" class="mono">▶ RESUME</text>
+
+        <rect x="253" y="0" width="55" height="18" rx="3" fill="#1E293B"/>
+        <text x="8" y="13" fill="#CBD5E1" font-size="9" class="mono">↺ RESET</text>
+      </g>
+    </g>
+
+    <g transform="translate(0, 194)">
+      <text x="0" y="16" fill="#34D399" font-size="10.5" font-weight="600" class="mono">
+        ✓ Microsoft Event Project  •  ✓ Stateful Telemetry Simulation  •  ✓ MTTR Acceleration
+      </text>
+    </g>
+  </g>
+
+  <!-- Dividing Line -->
+  <line x1="490" y1="28" x2="490" y2="232" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Right Side Diagnostic Flow -->
+  <g transform="translate(520, 28)">
+    <text x="0" y="16" fill="#64748B" font-size="10.5" font-weight="700" class="mono" letter-spacing="1">
+      DIAGNOSTIC PIPELINE ARCHITECTURE
+    </text>
+
+    <g transform="translate(0, 30)">
+      <rect width="444" height="52" rx="8" fill="#0C1726" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="22" fill="#38BDF8" font-size="12" font-weight="700" class="sans">Anomaly Stream Ingestion</text>
+      <text x="14" y="38" fill="#94A3B8" font-size="10.5" class="sans">Simulated cloud telemetry streams highlighting error spikes and CPU spikes.</text>
+    </g>
+
+    <g transform="translate(0, 90)">
+      <rect width="444" height="52" rx="8" fill="#0C1726" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="22" fill="#60A5FA" font-size="12" font-weight="700" class="sans">AI-Assisted Root Cause Reasoning</text>
+      <text x="14" y="38" fill="#94A3B8" font-size="10.5" class="sans">Correlates microservice logs to isolate faulty dependencies and remediation paths.</text>
+    </g>
+
+    <g transform="translate(0, 150)">
+      <rect width="444" height="52" rx="8" fill="#0C1726" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="22" fill="#818CF8" font-size="12" font-weight="700" class="sans">Command Center Dashboard</text>
+      <text x="14" y="38" fill="#94A3B8" font-size="10.5" class="sans">Triage dashboard giving SREs single-pane visibility over incident severity.</text>
+    </g>
+  </g>
+</svg>

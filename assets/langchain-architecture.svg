@@ -1,0 +1,85 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0A1E"/>
+      <stop offset="60%" stop-color="#140E26"/>
+      <stop offset="100%" stop-color="#090614"/>
+    </linearGradient>
+
+    <linearGradient id="lcBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="260" rx="14" fill="url(#lcBg)"/>
+  <rect x="1" y="1" width="998" height="258" rx="13" fill="none" stroke="url(#lcBorder)" stroke-width="1.2"/>
+
+  <!-- Left Header & Specs -->
+  <g transform="translate(36, 28)">
+    <rect x="0" y="0" width="220" height="24" rx="12" fill="#221138" stroke="#A855F7" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#C084FC"/>
+    <text x="22" y="16" fill="#E9D5FF" font-size="10.5" font-weight="700" class="mono" letter-spacing="0.8">OPEN SOURCE // CONTRIBUTOR</text>
+
+    <text x="0" y="60" fill="#FFFFFF" font-size="26" font-weight="800" class="sans" letter-spacing="-0.5">
+      LangChain Ecosystem
+    </text>
+    <text x="0" y="80" fill="#C084FC" font-size="12.5" font-weight="600" class="mono">
+      langchain-anthropic &amp; langchain-groq INTEGRATIONS
+    </text>
+
+    <text x="0" y="106" fill="#94A3B8" font-size="13" class="sans">
+      Upstream partner package contributions enforcing model configuration safety.
+    </text>
+
+    <!-- Branch Box -->
+    <g transform="translate(0, 126)">
+      <rect width="420" height="52" rx="8" fill="#120A22" stroke="#2E1C48" stroke-width="1"/>
+      <text x="14" y="20" fill="#C084FC" font-size="9.5" font-weight="700" class="mono">ACTIVE BRANCH &amp; UPSTREAM TARGET</text>
+      <text x="14" y="38" fill="#F8FAFC" font-size="11" class="mono truncate">
+        yatish-code26/anthropic/manual-thinking-model-validation
+      </text>
+    </g>
+
+    <g transform="translate(0, 194)">
+      <text x="0" y="16" fill="#34D399" font-size="10.5" font-weight="600" class="mono">
+        ✓ Python 3  •  ✓ Parameterized Pytest  •  ✓ Ruff &amp; Mypy  •  ✓ Git Flow
+      </text>
+    </g>
+  </g>
+
+  <!-- Dividing Line -->
+  <line x1="490" y1="28" x2="490" y2="232" stroke="#2E1C48" stroke-width="1"/>
+
+  <!-- Right Side Scope Tiles -->
+  <g transform="translate(520, 28)">
+    <text x="0" y="16" fill="#64748B" font-size="10.5" font-weight="700" class="mono" letter-spacing="1">
+      CONTRIBUTION WORK HIGHLIGHTS
+    </text>
+
+    <g transform="translate(0, 30)">
+      <rect width="444" height="52" rx="8" fill="#150E28" stroke="#2E1C48" stroke-width="1"/>
+      <text x="14" y="22" fill="#C084FC" font-size="12" font-weight="700" class="sans">ChatAnthropic Model Validation (Issue #40770)</text>
+      <text x="14" y="38" fill="#94A3B8" font-size="10.5" class="sans">Restricts manual token budgets on Claude Opus 4.7/4.8 &amp; Sonnet 5; enforces adaptive thinking.</text>
+    </g>
+
+    <g transform="translate(0, 90)">
+      <rect width="444" height="52" rx="8" fill="#150E28" stroke="#2E1C48" stroke-width="1"/>
+      <text x="14" y="22" fill="#818CF8" font-size="12" font-weight="700" class="sans">ChatGroq Fail-Fast Tool Calling (Issue #40771)</text>
+      <text x="14" y="38" fill="#94A3B8" font-size="10.5" class="sans">Proposes local ValueError validation when model profile has tool_calling=False.</text>
+    </g>
+
+    <g transform="translate(0, 150)">
+      <rect width="444" height="52" rx="8" fill="#150E28" stroke="#2E1C48" stroke-width="1"/>
+      <text x="14" y="22" fill="#38BDF8" font-size="12" font-weight="700" class="sans">Comprehensive Unit Test Engines</text>
+      <text x="14" y="38" fill="#94A3B8" font-size="10.5" class="sans">Parameterized pytest suites testing valid models, unsupported models, and backward compatibility.</text>
+    </g>
+  </g>
+</svg>
