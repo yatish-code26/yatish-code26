@@ -1,0 +1,6 @@
+# Ignore site folder (independent standalone web application)
+site/
+node_modules/
+dist/
+.DS_Store
+Thumbs.db

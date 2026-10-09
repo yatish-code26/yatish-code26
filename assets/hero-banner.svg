@@ -74,7 +74,7 @@
       Architecting complete systems from idea → architecture → security → deployment.
     </text>
     <text x="0" y="146" fill="#94A3B8" font-size="13.5" font-weight="400" class="sans">
-      Production travel companion, geospatial digital public infrastructure, and LangChain contributions.
+      Geospatial digital public infrastructure, personal AI workstations, and LangChain contributions.
     </text>
   </g>
 
@@ -115,8 +115,8 @@
 
     <!-- Block 1 -->
     <g transform="translate(20, 14)">
-      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">RouteX Platform</text>
-      <text x="0" y="32" fill="#38BDF8" font-size="10.5" class="mono">React 19 • Native • Supabase</text>
+      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">NeuroniX Studio</text>
+      <text x="0" y="32" fill="#F472B6" font-size="10.5" class="mono">React 18 • Monaco • AI Workbench</text>
     </g>
     <line x1="235" y1="12" x2="235" y2="48" stroke="#1E293B" stroke-width="1"/>
 
