@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" alt="Yatish P — Systems Architect & Product Builder" width="100%" />
+<img src="./assets/hero-banner.svg" alt="Yatish P — Constant Learner" width="100%" />
 
 <br/>
 
@@ -28,7 +28,7 @@
 
 ## ⚡ Executive Engineering Dossier
 
-I am a **systems architect and product builder** based in Bengaluru, India. I specialize in engineering complete, resilient technical systems where **autonomous AI reasoning, cadastral GIS computation, and zero-trust database security** converge. 
+I am a **systems architect and product builder** based in Bengaluru, India. I specialize in engineering complete, resilient technical systems where **autonomous AI reasoning, cadastral GIS computation, and zero-trust database security and also i have made multiple project and participated in multiple hackathon and ** converge. 
 
 Rather than stopping at isolated frontend interfaces or disjointed prototype scripts, I design and ship complete systems from domain modeling through to PostgreSQL Row Level Security (RLS), PostGIS polygon calculations, and automated production test gates.
 
@@ -38,8 +38,7 @@ Rather than stopping at isolated frontend interfaces or disjointed prototype scr
 
 The full interactive portfolio is built as an independent, standalone WebGL 3D web application with **React 19, TypeScript, Three.js, and Vite**, ready for deployment to Vercel:
 
-> 🚀 **Portfolio Web App:** [Launch The Digital Universe 3D Portfolio](https://yatish-portfolio.vercel.app)  
-> *(Local development source located in [`site/`](./site) — deployment URL placeholder configured for Vercel production deployment)*
+
 
 ### Key Portfolio Features:
 * **Real-Time 3D Digital Universe**: Multi-layered celestial core with orbiting project satellites and raycaster pointer interaction.
