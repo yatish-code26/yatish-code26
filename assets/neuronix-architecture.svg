@@ -1,0 +1,97 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B14"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D18"/>
+    </linearGradient>
+
+    <linearGradient id="nxBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="260" rx="14" fill="url(#nxBg)"/>
+  <rect x="1" y="1" width="998" height="258" rx="13" fill="none" stroke="url(#nxBorder)" stroke-width="1.2"/>
+
+  <!-- Left Header & Specs -->
+  <g transform="translate(36, 28)">
+    <rect x="0" y="0" width="230" height="24" rx="12" fill="#1E1435" stroke="#C084FC" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#C084FC"/>
+    <text x="22" y="16" fill="#E9D5FF" font-size="10.5" font-weight="700" class="mono" letter-spacing="0.8">DEVELOPER AI WORKBENCH</text>
+
+    <text x="0" y="60" fill="#FFFFFF" font-size="26" font-weight="800" class="sans" letter-spacing="-0.5">
+      NeuroniX
+    </text>
+    <text x="0" y="80" fill="#C084FC" font-size="12.5" font-weight="600" class="mono">
+      PERSONAL AI WORKSTATION &amp; DEV STUDIO
+    </text>
+
+    <text x="0" y="106" fill="#94A3B8" font-size="13" class="sans">
+      Integrated development environment pairing client-side Monaco Editor with multi-model AI.
+    </text>
+
+    <!-- Architecture Box -->
+    <g transform="translate(0, 126)">
+      <rect width="430" height="52" rx="8" fill="#0E1322" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="20" fill="#64748B" font-size="9.5" font-weight="700" class="mono">UNIFIED WORKSPACE PIPELINE</text>
+      <text x="14" y="38" fill="#38BDF8" font-size="11" font-weight="600" class="mono">
+        Monaco Editor ➔ LLM Router ➔ DND File Tree ➔ Voice Input
+      </text>
+    </g>
+
+    <g transform="translate(0, 194)">
+      <text x="0" y="16" fill="#C084FC" font-size="10.5" font-weight="600" class="mono">
+        ✓ Monaco Studio  •  ✓ Multi-Engine Reasoning  •  ✓ 12-Lang Voice Audio
+      </text>
+    </g>
+  </g>
+
+  <!-- Dividing Line -->
+  <line x1="500" y1="28" x2="500" y2="232" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Right Visual Workbench Preview -->
+  <g transform="translate(525, 28)">
+    <rect width="440" height="204" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Window Bar -->
+    <rect width="440" height="28" rx="10" fill="#141B2D"/>
+    <circle cx="16" cy="14" r="4" fill="#EF4444"/>
+    <circle cx="30" cy="14" r="4" fill="#F59E0B"/>
+    <circle cx="44" cy="14" r="4" fill="#10B981"/>
+    <text x="64" y="18" fill="#94A3B8" font-size="11" class="mono">neuronix-workspace.tsx — Monaco Editor</text>
+
+    <!-- Code & Assistant Panel Split -->
+    <g transform="translate(14, 40)">
+      <!-- Left: Editor Pane -->
+      <rect width="250" height="150" rx="6" fill="#080C14" stroke="#1E293B" stroke-width="1"/>
+      <text x="12" y="24" fill="#60A5FA" font-size="11" class="mono">const <tspan fill="#F59E0B">model</tspan> = initWorkspace({</text>
+      <text x="24" y="44" fill="#E2E8F0" font-size="11" class="mono">engine: <tspan fill="#34D399">'claude-sonnet-4'</tspan>,</text>
+      <text x="24" y="64" fill="#E2E8F0" font-size="11" class="mono">monaco: <tspan fill="#F59E0B">editorInstance</tspan>,</text>
+      <text x="24" y="84" fill="#E2E8F0" font-size="11" class="mono">voice: <tspan fill="#C084FC">true</tspan>, sandbox: <tspan fill="#C084FC">true</tspan></text>
+      <text x="12" y="104" fill="#60A5FA" font-size="11" class="mono">});</text>
+      <text x="12" y="130" fill="#10B981" font-size="10.5" class="mono">// ⚡ 0 Compilation Errors</text>
+
+      <!-- Right: AI Co-Pilot Pane -->
+      <g transform="translate(260, 0)">
+        <rect width="152" height="150" rx="6" fill="#10172A" stroke="#334155" stroke-width="1"/>
+        <text x="10" y="22" fill="#C084FC" font-size="10" font-weight="700" class="mono">CO-PILOT STREAM</text>
+        <line x1="10" y1="30" x2="142" y2="30" stroke="#334155" stroke-width="1"/>
+        <text x="10" y="50" fill="#94A3B8" font-size="10" class="sans">Active Model:</text>
+        <text x="10" y="66" fill="#38BDF8" font-size="10" font-weight="600" class="mono">Claude 3.5 Sonnet</text>
+        <text x="10" y="92" fill="#94A3B8" font-size="10" class="sans">Response Latency:</text>
+        <text x="10" y="108" fill="#34D399" font-size="10" font-weight="600" class="mono">280ms (Streaming)</text>
+        <rect x="10" y="122" width="132" height="18" rx="4" fill="#1E293B"/>
+        <text x="18" y="135" fill="#A855F7" font-size="9" font-weight="600" class="mono">STATUS: OPTIMIZED</text>
+      </g>
+    </g>
+  </g>
+</svg>

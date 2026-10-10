@@ -129,8 +129,8 @@
 
     <!-- Block 3 -->
     <g transform="translate(495, 14)">
-      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">IncidentIQ</text>
-      <text x="0" y="32" fill="#60A5FA" font-size="10.5" class="mono">Cloud Intel • Simulation Loop</text>
+      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">Xroot Edge AI</text>
+      <text x="0" y="32" fill="#FBBF24" font-size="10.5" class="mono">Adaptive Compute • Telemetry</text>
     </g>
     <line x1="710" y1="12" x2="710" y2="48" stroke="#1E293B" stroke-width="1"/>
 

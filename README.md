@@ -44,7 +44,7 @@ The full interactive portfolio is built as an independent, standalone WebGL 3D w
 ### Key Portfolio Features:
 * **Real-Time 3D Digital Universe**: Multi-layered celestial core with orbiting project satellites and raycaster pointer interaction.
 * **Dynamic Project Explorer**: Search, filter, and inspect all discovered repositories with instant keyword indexing and 3D card tilt.
-* **Interactive Architecture Simulators**: Live temporal drone diffing (LandStack), client-side token validation terminal (LangChain), SRE telemetry console (IncidentIQ), and adaptive compute scheduler (Xroot).
+* **Interactive Architecture Simulators**: Live temporal drone diffing (LandStack), client-side token validation terminal (LangChain), adaptive compute scheduler (Xroot), and in-browser code studio (NeuroniX).
 * **Zero-Error Build Gate**: 100% type-safe compilation passing `tsc -b && vite build` with 0 compiler errors.
 
 ---
@@ -127,24 +127,6 @@ I approach software engineering with an unwavering commitment to **architectural
 
 ---
 
-### ⚡ IncidentIQ — Cloud Incident Intelligence
-> **Microsoft Build Bengaluru Hackathon Project**
-
-<p align="center">
-  <img src="./assets/incidentiq-architecture.svg" alt="IncidentIQ Architecture" width="100%" />
-</p>
-
-| Metric | Verified System Specification |
-| :--- | :--- |
-| **System Classification** | Cloud Incident Intelligence & SRE Command Center |
-| **Core Concept** | Telemetry Stream Correlation & MTTR Acceleration via Diagnostic AI Prompting |
-| **Stateful Demo Controls** | `SIMULATE INCIDENT` • `PAUSE` • `RESUME` • `RESET` |
-
-* **Problem Being Solved**: Complex cloud microservice outages create high cognitive load and slow remediation cycles due to disjointed telemetry.
-* **Architected Solution**: Cloud incident intelligence command-center interface with AI-assisted root-cause reasoning, real-time diagnostic telemetry views, and stateful incident simulation controls.
-
----
-
 ### 📱 Xroot — Self-Evolving On-Device Adaptive AI
 > **On-Device AI Architecture & Research Prototype**
 
@@ -165,6 +147,10 @@ I approach software engineering with an unwavering commitment to **architectural
 
 ### 💻 NeuroniX — Personal AI Workstation
 > **Full-Stack Developer Workbench & AI Studio**
+
+<p align="center">
+  <img src="./assets/neuronix-architecture.svg" alt="NeuroniX Architecture" width="100%" />
+</p>
 
 | Metric | Verified System Specification |
 | :--- | :--- |
@@ -197,7 +183,7 @@ I approach software engineering with an unwavering commitment to **architectural
 ## 🏆 Verified Credentials & Hackathons
 
 * **Smart India Hackathon (SIH 2026)**: Architected **LandStack** master prototype, an integrated GIS Digital Public Infrastructure layer for state land administration.
-* **Microsoft Build Bengaluru Hackathon / Event**: Architected and demoed **IncidentIQ**, a cloud incident intelligence and automated simulation command center.
+* **Microsoft Certified: Azure / AI Foundations**: Verified cloud & AI systems architecture and distributed engineering foundations.
 * **LangChain Open Source Ecosystem**: Upstream contributor on model validation issues within `langchain-anthropic` (#40770) and `langchain-groq` (#40771).
 * **Adobe Hackathon Participation**: Participated in rapid product prototyping challenge.
 * **Prodothon Dec 2024**: Competitive product engineering and interface prototyping sprint.
