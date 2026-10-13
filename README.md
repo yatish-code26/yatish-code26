@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" alt="Yatish P — Constant Learner" width="100%" />
+<img src="./assets/hero-banner.svg" alt="Yatish P — Systems Architect & Product Builder" width="100%" />
 
 <br/>
 
-[![3D Experience](https://img.shields.io/badge/3D%20Experience-Digital%20Universe-0E1726?style=flat-square&logo=three.js&logoColor=38BDF8)](#-interactive-3d-portfolio-experience)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-@yatish--code26-0E1726?style=flat-square&logo=github&logoColor=38BDF8)](https://github.com/yatish-code26)
-[![Verified Email](https://img.shields.io/badge/Email-yatishofficial26@gmail.com-0E1726?style=flat-square&logo=gmail&logoColor=34D399)](mailto:yatishofficial26@gmail.com)
-[![Status](https://img.shields.io/badge/Status-Systems%20Architect-0E1726?style=flat-square&logo=statuspage&logoColor=10B981)](#-verified-engineering-highlights)
-[![Open Source](https://img.shields.io/badge/Open%20Source-LangChain%20Contributor-0E1726?style=flat-square&logo=git&logoColor=C084FC)](#-upstream-open-source-engineering)
+[![Portfolio Web App](https://img.shields.io/badge/Live%20Portfolio-yatish--portfolio.vercel.app-08090C?style=flat-square&logo=vercel&logoColor=38BDF8)](https://yatish-portfolio-pi.vercel.app/)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-@yatish--code26-08090C?style=flat-square&logo=github&logoColor=F8FAFC)](https://github.com/yatish-code26)
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Yatish%20P-08090C?style=flat-square&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/yatishofficial/)
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-179%20Solved-08090C?style=flat-square&logo=leetcode&logoColor=F59E0B)](https://leetcode.com/u/Yatish-code/)
+[![Verified Email](https://img.shields.io/badge/Email-yatishofficial26@gmail.com-08090C?style=flat-square&logo=gmail&logoColor=10B981)](mailto:yatishofficial26@gmail.com)
 
 </div>
 
@@ -16,8 +16,8 @@
 
 <div align="center">
 
-<a href="#-interactive-3d-portfolio-experience">
-  <img src="./assets/interactive-portal.svg" alt="Launch The Digital Universe 3D Experience" width="100%" />
+<a href="https://yatish-portfolio-pi.vercel.app/">
+  <img src="./assets/interactive-portal.svg" alt="Launch 3D Developer Experience" width="100%" />
 </a>
 
 </div>
@@ -28,23 +28,29 @@
 
 ## ⚡ Executive Engineering Dossier
 
-I am a **systems architect and product builder** based in Bengaluru, India. I specialize in engineering complete, resilient technical systems where **autonomous AI reasoning, cadastral GIS computation, and zero-trust database security and also i have made multiple project and participated in multiple hackathon and ** converge. 
+I am a **systems architect and product builder** based in Bengaluru, India. I specialize in engineering complete, resilient technical systems where **autonomous AI reasoning runtimes, cadastral GIS digital public infrastructure, and zero-trust PostgreSQL security** converge.
 
-Rather than stopping at isolated frontend interfaces or disjointed prototype scripts, I design and ship complete systems from domain modeling through to PostgreSQL Row Level Security (RLS), PostGIS polygon calculations, and automated production test gates.
+Rather than stopping at isolated frontend interfaces or disconnected prototype scripts, I design and ship vertically integrated systems: from relational database modeling with PostgreSQL Row Level Security (RLS) to spatial polygon calculus with Shapely and PostGIS, upstream model validation guards in LangChain, and responsive 3D WebGL user interfaces.
 
 ---
 
-## 🌐 Interactive 3D Portfolio Experience
+## 📊 Live Developer Telemetry & Contribution Summary
 
-The full interactive portfolio is built as an independent, standalone WebGL 3D web application with **React 19, TypeScript, Three.js, and Vite**, ready for deployment to Vercel:
+<!-- LIVE_STATS_START -->
+<p align="center">
+  <img src="./assets/live-metrics.svg" alt="Live Verified Developer Telemetry — Yatish P" width="100%" />
+</p>
 
+| Verified Metric | Live Measurement | Verification Authority | Source Link |
+| :--- | :--- | :--- | :--- |
+| **LeetCode Solved** | **179 Problems** (72 Easy • 83 Med • 24 Hard) | Official LeetCode GraphQL API | [@Yatish-code](https://leetcode.com/u/Yatish-code/) |
+| **Solving Streak** | **81 Days Active Streak** (192 Active Days) | LeetCode 100-Day & 50-Day Badges | [Profile Badges](https://leetcode.com/u/Yatish-code/) |
+| **Public Systems** | **2 Repositories** (LangChain OSS & Profile Engine) | GitHub REST API | [@yatish-code26](https://github.com/yatish-code26) |
+| **Open Source** | **Active Contributor** (`langchain-anthropic` & `langchain-groq`) | Upstream LangChain Fork | [langchain fork](https://github.com/yatish-code26/langchain) |
+| **Telemetry Cadence** | **Daily Automatic Cron** (via GitHub Actions) | Safe In-Repo Vector SVG Engine | [Workflow Run](https://github.com/yatish-code26/yatish-code26/actions) |
+<!-- LIVE_STATS_END -->
 
-
-### Key Portfolio Features:
-* **Real-Time 3D Digital Universe**: Multi-layered celestial core with orbiting project satellites and raycaster pointer interaction.
-* **Dynamic Project Explorer**: Search, filter, and inspect all discovered repositories with instant keyword indexing and 3D card tilt.
-* **Interactive Architecture Simulators**: Live temporal drone diffing (LandStack), client-side token validation terminal (LangChain), adaptive compute scheduler (Xroot), and in-browser code studio (NeuroniX).
-* **Zero-Error Build Gate**: 100% type-safe compilation passing `tsc -b && vite build` with 0 compiler errors.
+> **Telemetry Update Mechanism:** The metric cards above are generated automatically by a dedicated [GitHub Actions workflow](.github/workflows/update-stats.yml). The workflow runs on a daily schedule, fetches live stats from GitHub and LeetCode, and commits the generated vector card directly to this repository with zero external third-party outages.
 
 ---
 
@@ -62,7 +68,7 @@ I approach software engineering with an unwavering commitment to **architectural
 [01. SPECIFICATION] ──► [02. ARCHITECTURE] ──► [03. IMPLEMENTATION]
          │                       │                        │
          ▼                       ▼                        ▼
-  Domain Entity Models   Distributed Schemas       React 19 / Vite
+  Domain Entity Models   Distributed Schemas       React 19 / TypeScript
   Edge Case Audits       Postgres RLS Policies     FastAPI Core Services
   Strict API Contracts   Spatial PostGIS Indices   Streaming AI Runtimes
          │                       │                        │
@@ -80,7 +86,7 @@ I approach software engineering with an unwavering commitment to **architectural
 
 ## 🚀 Verified Engineering Highlights
 
-### 🗺️ LandStack — GIS Digital Public Infrastructure
+### 🗺️ LandStack — GIS Cadastral Digital Public Infrastructure
 > **Smart India Hackathon (SIH 2026) Master Prototype**
 
 <p align="center">
@@ -90,10 +96,10 @@ I approach software engineering with an unwavering commitment to **architectural
 | Metric | Verified System Specification |
 | :--- | :--- |
 | **System Classification** | Integrated GIS Cadastral Digital Public Infrastructure for Land Administration |
-| **Verified Tech Stack** | FastAPI, Python 3, MapLibre GL JS, Shapely, SQLAlchemy 2.0, React 18, Tailwind CSS, Pytest |
+| **Verified Tech Stack** | FastAPI, Python 3, MapLibre GL JS, Shapely, SQLAlchemy 2.0, React, PostGIS, Pytest |
 | **Architectural Formula** | One Parcel ➔ One Identity (ULPIN) ➔ 11 Regulatory Domain Layers ➔ Unified GIS View |
 | **Guided Scenario** | 5-Step Story Tour modeled on `DEMO-ULPIN-00421` with 3D Volumetric Extrusion View |
-| **Source Repository** | [LandStack (sih-gov)](https://github.com/yatish-code26/sih-gov) |
+| **Interactive Showcase** | [Explore in 3D Web Application](https://yatish-portfolio-pi.vercel.app/) |
 
 * **Problem Being Solved**: Public land administration across state departments suffers from acute data fragmentation: cadastral revenue maps, sub-registrar transaction deeds, town planning zoning, and municipal permissions reside in isolated silos, causing undetected encroachments and costly land disputes.
 * **Architected Solution**: LandStack establishes an integrated geospatial digital public infrastructure layer linking each unique land parcel identity (ULPIN) to 11 regulatory domains through a canonical command center.
@@ -105,7 +111,7 @@ I approach software engineering with an unwavering commitment to **architectural
 
 ---
 
-### 🧬 LangChain Ecosystem — Upstream Open Source
+### ⚡ LangChain Ecosystem — Upstream Open Source Contributions
 > **Upstream Partner Package Integration | Active Branch**
 
 <p align="center">
@@ -123,6 +129,14 @@ I approach software engineering with an unwavering commitment to **architectural
 * **Engineering Work**:
   * **`langchain-anthropic`**: Restricting invalid manual extended thinking token budgets on Claude Opus 4.7/4.8 and Sonnet 5, enforcing adaptive thinking compliance locally before API dispatch.
   * **`langchain-groq`**: Proposing local fail-fast validation in `ChatGroq.bind_tools()` when `tool_calling=False` (e.g. `allam-2-7b`), preventing unhandled HTTP 400 exceptions from provider APIs.
+
+---
+
+### 🌐 3D Developer Portfolio Web Application
+> **Independent Standalone Creative Application**
+
+* **Live Deployment:** [yatish-portfolio-pi.vercel.app](https://yatish-portfolio-pi.vercel.app/)
+* **Architecture:** React 19, TypeScript, Three.js, Vite. Features a cinematic 3D procedural developer avatar with kinetic entrance animation, gesture controls, pointer parallax, searchable project explorer, and verified credentials gallery.
 
 ---
 
@@ -181,27 +195,31 @@ I approach software engineering with an unwavering commitment to **architectural
 
 ## 🏆 Verified Credentials & Hackathons
 
-* **Smart India Hackathon (SIH 2026)**: Architected **LandStack** master prototype, an integrated GIS Digital Public Infrastructure layer for state land administration.
-* **Microsoft Certified: Azure / AI Foundations**: Verified cloud & AI systems architecture and distributed engineering foundations.
-* **LangChain Open Source Ecosystem**: Upstream contributor on model validation issues within `langchain-anthropic` (#40770) and `langchain-groq` (#40771).
-* **Adobe Hackathon Participation**: Participated in rapid product prototyping challenge.
-* **Prodothon Dec 2024**: Competitive product engineering and interface prototyping sprint.
-* **Browser Battle / HackDay 1.0**: Verified milestones in high-performance web engineering.
-* **Cybersecurity & Cryptography Coursework**: Verified coursework in *Fundamentals of Information Security* and *Fundamentals of Cryptography*.
-* **Algorithm & Problem Solving**: Verified LeetCode problem solving milestone recognition (50+ Solved & 100-Day Problem-Solving challenge).
+Every credential listed below is grounded in verified institutional documentation and official competition records:
+
+* 🥇 **Smart India Hackathon (SIH 2026)**: Architected **LandStack** master prototype, an integrated GIS Digital Public Infrastructure layer uniting 11 regulatory governance layers with drone change detection.
+* 🏆 **Adobe Hackathon Challenge**: Official Certificate of Participation for rapid creative tooling interface engineering under timed competition constraints.
+* ☁️ **Microsoft Learn Certified: Generative AI & Cloud Architecture**: Completed formal technical certification covering Generative AI model architectures, Azure cloud computing pipelines, and scalable ML workflows (`yatishp-6204`).
+* 💻 **Prodothon Dec 2024 Product Sprint**: Official Certificate of Participation for rapid product flow synthesis, state machine architecture, and zero-defect frontend execution.
+* 🛡️ **Fundamentals of Cryptography**: Verified Academic Certification in symmetric/asymmetric ciphers, public-key infrastructure (PKI), and SHA hash verification.
+* 🔒 **Fundamentals of Information Security**: Verified Academic Certification in the CIA triad, least-privilege authorization, and row-level data boundary security.
+* ⚡ **Browser Battle & HackDay 1.0**: Official Certificates of Participation for high-performance web interface prototyping and zero-latency DOM execution.
+* 🎯 **LeetCode Problem Solving Milestones**: **100-Day Problem Solving Badge 2026**, **50-Days Badge 2026**, March DCC & August DCC badges with **179 verified solved problems**.
 
 ---
 
-## 📬 Transmission & Engineering Channels
+## 📬 Transmission Channels & Contact
 
-Interested in discussing full-stack product architecture, AI systems, or geospatial public infrastructure?
+Interested in discussing full-stack product architecture, AI systems, GIS public infrastructure, or open-source collaboration?
 
+* **Live Portfolio:** [yatish-portfolio-pi.vercel.app](https://yatish-portfolio-pi.vercel.app/)
+* **LinkedIn Profile:** [linkedin.com/in/yatishofficial](https://www.linkedin.com/in/yatishofficial/)
 * **GitHub Profile:** [@yatish-code26](https://github.com/yatish-code26)
+* **LeetCode Profile:** [@Yatish-code](https://leetcode.com/u/Yatish-code/)
 * **Direct Email:** [yatishofficial26@gmail.com](mailto:yatishofficial26@gmail.com)
 * **Location:** Bengaluru, Karnataka, India (IST / UTC +5:30)
-* **LinkedIn:** Verification pending confirmation (Handle: `yatishofficial`)
 
 <div align="center">
   <br/>
-  <sub>The Digital Universe • Engineered for <a href="https://github.com/yatish-code26">yatish-code26</a></sub>
+  <sub>The Digital Universe • Engineered with precision by <a href="https://github.com/yatish-code26">Yatish P</a></sub>
 </div>
