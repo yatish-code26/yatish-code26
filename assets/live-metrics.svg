@@ -41,7 +41,7 @@
   <g transform="translate(36, 26)">
     <circle cx="8" cy="8" r="4" fill="#10B981"/>
     <text x="20" y="12" fill="#10B981" font-size="11" font-weight="700" class="mono" letter-spacing="0.08em">LIVE VERIFIED TELEMETRY</text>
-    <text x="928" y="12" text-anchor="end" fill="#64748B" font-size="10.5" class="mono">LAST SYNC: 2026-10-17 (AUTO-UPDATED)</text>
+    <text x="928" y="12" text-anchor="end" fill="#64748B" font-size="10.5" class="mono">LAST SYNC: 2026-10-18 (AUTO-UPDATED)</text>
   </g>
 
   <!-- 4 Metrics Columns -->
@@ -49,9 +49,9 @@
   <g transform="translate(36, 68)">
     <rect width="210" height="136" rx="12" fill="#0D111A" stroke="#1E293B" stroke-width="1"/>
     <text x="20" y="28" fill="#F59E0B" font-size="11" font-weight="700" class="mono" letter-spacing="0.06em">LEETCODE PROBLEMS</text>
-    <text x="20" y="74" fill="url(#goldGrad)" font-size="40" font-weight="900" class="sans" letter-spacing="-0.03em">180</text>
-    <text x="20" y="102" fill="#94A3B8" font-size="11.5" class="sans">Easy: 73 • Med: 83 • Hard: 24</text>
-    <text x="20" y="120" fill="#64748B" font-size="10" class="mono">Top 977k (#977206)</text>
+    <text x="20" y="74" fill="url(#goldGrad)" font-size="40" font-weight="900" class="sans" letter-spacing="-0.03em">181</text>
+    <text x="20" y="102" fill="#94A3B8" font-size="11.5" class="sans">Easy: 73 • Med: 84 • Hard: 24</text>
+    <text x="20" y="120" fill="#64748B" font-size="10" class="mono">Top 972k (#971755)</text>
   </g>
 
   <!-- Col 2: Active Solving Streak -->
