@@ -4,7 +4,7 @@
  * - Fetches verified LeetCode stats
  * - Generates high-res dark-mode vector SVG card (assets/live-metrics.svg)
  * - Updates README.md bounded live metrics table safely
- * - Fails safely without overwriting data with zeroes on network issues
+ * - Fails safely without overwriting data with zeroes on network issues 
  */
 
 const https = require('https');
