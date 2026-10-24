@@ -43,7 +43,7 @@ Rather than stopping at isolated frontend interfaces or disconnected prototype s
 
 | Verified Metric | Live Measurement | Verification Authority | Source Link |
 | :--- | :--- | :--- | :--- |
-| **LeetCode Solved** | **184 Problems** (74 Easy • 86 Med • 24 Hard) | Official LeetCode GraphQL API | [@Yatish-code](https://leetcode.com/u/Yatish-code/) |
+| **LeetCode Solved** | **185 Problems** (74 Easy • 87 Med • 24 Hard) | Official LeetCode GraphQL API | [@Yatish-code](https://leetcode.com/u/Yatish-code/) |
 | **Solving Streak** | **81 Days Active Streak** (192 Active Days) | LeetCode 100-Day & 50-Day Badges | [Profile Badges](https://leetcode.com/u/Yatish-code/) |
 | **Public Systems** | **2 Repositories** (LangChain OSS & Profile Engine) | GitHub REST API | [@yatish-code26](https://github.com/yatish-code26) |
 | **Open Source** | **Active Contributor** (`langchain-anthropic` & `langchain-groq`) | Upstream LangChain Fork | [langchain fork](https://github.com/yatish-code26/langchain) |
