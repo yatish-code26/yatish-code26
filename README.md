@@ -45,7 +45,7 @@ Rather than stopping at isolated frontend interfaces or disconnected prototype s
 | :--- | :--- | :--- | :--- |
 | **LeetCode Solved** | **187 Problems** (75 Easy • 88 Med • 24 Hard) | Official LeetCode GraphQL API | [@Yatish-code](https://leetcode.com/u/Yatish-code/) |
 | **Solving Streak** | **81 Days Active Streak** (192 Active Days) | LeetCode 100-Day & 50-Day Badges | [Profile Badges](https://leetcode.com/u/Yatish-code/) |
-| **Public Systems** | **2 Repositories** (LangChain OSS & Profile Engine) | GitHub REST API | [@yatish-code26](https://github.com/yatish-code26) |
+| **Public Systems** | **3 Repositories** (LangChain OSS & Profile Engine) | GitHub REST API | [@yatish-code26](https://github.com/yatish-code26) |
 | **Open Source** | **Active Contributor** (`langchain-anthropic` & `langchain-groq`) | Upstream LangChain Fork | [langchain fork](https://github.com/yatish-code26/langchain) |
 | **Telemetry Cadence** | **Daily Automatic Cron** (via GitHub Actions) | Safe In-Repo Vector SVG Engine | [Workflow Run](https://github.com/yatish-code26/yatish-code26/actions) |
 <!-- LIVE_STATS_END -->
